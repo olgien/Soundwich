@@ -1,0 +1,114 @@
+{
+  "gear": [
+    {
+      "id": 1,
+      "type": "Rejestrator",
+      "name": "F8",
+      "brand": "ZOOM",
+      "price": ,
+      "insurance": {
+        "serial": B70007622,
+        "price": "4000 zł"
+      }
+    },
+    {
+      "id": 2,
+      "type": "Słuchawki",
+      "name": "HD280 Pro",
+      "brand": "Sennheiser",
+      "price": ,
+      "insurance": {
+        "serial": 004974,
+        "price": "430 zł"
+      }
+    },
+    {
+      "id": 3,
+      "type": "Mikrofon"
+      "name": "MKH416",
+      "brand": "Sennheiser",
+      "price": ,
+      "insurance": {
+        "serial": "Oznaczenie firmowe M01",
+        "price": "4100 zł"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Mikrofon",
+      "name": "MK012 MSP-6",
+      "brand": "Oktava",
+      "price": ,
+      "insurance": {
+         "serial": 0229095,
+         "price": "2400 zł"
+      }
+    },
+    {
+      "id": 5,
+      "type": "MPlug-On Transmitter",
+      "name": "SKP2000",
+      "brand": "Sennheiser",
+      "price": ,
+      "insurance": {
+         "serial": 1425133445,
+         "price": "3000 zł"
+      }
+    },
+    {
+      "id": 6,
+      "type": "Bodypack Transmitter",
+      "name": "SK100",
+      "brand": "Sennheiser",
+      "price": ,
+      "insurance": {
+         "serial": 1305383261,
+         "price": "1000 zł"
+      }
+    },
+    {
+      "id": 7,
+      "type": "Mikrofon",
+      "name": "Ambeo",
+      "brand": "Sennheiser",
+      "price": ,
+      "insurance": {
+         "serial": 1087000738,
+         "price": "6273 zł"
+      }
+    },
+    {
+      "id": 8,
+      "type": "Mikrofon",
+      "name": "MKE-2-ew",
+      "brand": "Sennheiser",
+      "price": ,
+      "insurance": {
+         "serial": 1357060203,
+         "price": "1180 zł"
+      }
+    },
+    {
+      "id": 9,
+      "type": "Słuchawki",
+      "name": "HDR 160,
+      "brand": "Sennheiser",
+      "price": ,
+      "insurance": {
+         "serial": 0335000758,
+         "price": "360 zł"
+      }
+    },
+    {
+      "id": 10,
+      "type": "Tyczka",
+      "name": "QP480",
+      "brand": "Ambient",
+      "price": ,
+      "insurance": {
+         "serial": Oznaczenie firmowe T01,
+         "price": "2000 zł"
+      }
+    }
+  ]
+}
