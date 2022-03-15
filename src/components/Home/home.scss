@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    width: 20px;
+    color: darkviolet;
+  }
+  .linkback {
+    text-transform: uppercase;
+  }
+}

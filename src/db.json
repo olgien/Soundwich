@@ -5,9 +5,9 @@
       "type": "Rejestrator",
       "name": "F8",
       "brand": "ZOOM",
-      "price": ,
+      "price": 100,
       "insurance": {
-        "serial": B70007622,
+        "serial": "B70007622",
         "price": "4000 zł"
       }
     },
@@ -16,18 +16,18 @@
       "type": "Słuchawki",
       "name": "HD280 Pro",
       "brand": "Sennheiser",
-      "price": ,
+      "price": 15,
       "insurance": {
-        "serial": 004974,
+        "serial": "004974",
         "price": "430 zł"
       }
     },
     {
       "id": 3,
-      "type": "Mikrofon"
+      "type": "Mikrofon",
       "name": "MKH416",
       "brand": "Sennheiser",
-      "price": ,
+      "price": 100,
       "insurance": {
         "serial": "Oznaczenie firmowe M01",
         "price": "4100 zł"
@@ -35,12 +35,12 @@
     },
     {
       "id": 4,
-      "type": "Mikrofon",
+      "type": "Mikrofon stereo-set",
       "name": "MK012 MSP-6",
       "brand": "Oktava",
-      "price": ,
+      "price": 100,
       "insurance": {
-         "serial": 0229095,
+         "serial": "0229095",
          "price": "2400 zł"
       }
     },
@@ -49,9 +49,9 @@
       "type": "MPlug-On Transmitter",
       "name": "SKP2000",
       "brand": "Sennheiser",
-      "price": ,
+      "price": 50,
       "insurance": {
-         "serial": 1425133445,
+         "serial": "1425133445",
          "price": "3000 zł"
       }
     },
@@ -60,9 +60,9 @@
       "type": "Bodypack Transmitter",
       "name": "SK100",
       "brand": "Sennheiser",
-      "price": ,
+      "price": 50,
       "insurance": {
-         "serial": 1305383261,
+         "serial": "1305383261",
          "price": "1000 zł"
       }
     },
@@ -71,9 +71,9 @@
       "type": "Mikrofon",
       "name": "Ambeo",
       "brand": "Sennheiser",
-      "price": ,
+      "price": 150,
       "insurance": {
-         "serial": 1087000738,
+         "serial": "1087000738",
          "price": "6273 zł"
       }
     },
@@ -82,20 +82,20 @@
       "type": "Mikrofon",
       "name": "MKE-2-ew",
       "brand": "Sennheiser",
-      "price": ,
+      "price": 20,
       "insurance": {
-         "serial": 1357060203,
+         "serial": "1357060203",
          "price": "1180 zł"
       }
     },
     {
       "id": 9,
       "type": "Słuchawki",
-      "name": "HDR 160,
+      "name": "HDR 160",
       "brand": "Sennheiser",
-      "price": ,
+      "price": 15,
       "insurance": {
-         "serial": 0335000758,
+         "serial": "0335000758",
          "price": "360 zł"
       }
     },
@@ -104,9 +104,9 @@
       "type": "Tyczka",
       "name": "QP480",
       "brand": "Ambient",
-      "price": ,
+      "price": 30,
       "insurance": {
-         "serial": Oznaczenie firmowe T01,
+         "serial": "Oznaczenie firmowe T01",
          "price": "2000 zł"
       }
     }

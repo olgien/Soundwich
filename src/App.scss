@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  font-family: Georgia;
+}
+
+ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 10px;
+
 }
 
 .App-logo {
@@ -31,11 +39,13 @@
 }
 
 
-
 .App-link {
   color: #61dafb;
 }
 
 
-
+.menu-list {
+  padding: 20px;
+  display: flex;
+}
 
