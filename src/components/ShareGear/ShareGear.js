@@ -14,9 +14,9 @@ function ShareGear(props) {
 
         <div className="my-gear">
             test test
-            {/*{<Pdf targetRef={ref} filename="code-example.pdf">
-                {({ toPdf }) => <button onClick={toPdf}>Generate Pdf</button>}
-            </Pdf>*/}
+            {/*{<Pdf targetRef={ref} filename="code-example.pdf">*/}
+            {/*    {({ toPdf }) => <button onClick={toPdf}>Generate Pdf</button>}*/}
+            {/*</Pdf>*/}
 
             <div ref={ref}>
                 {basket.map(e => <h4 className="item">{e.type}{e.name}</h4>)}
