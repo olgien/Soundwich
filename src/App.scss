@@ -8,6 +8,19 @@ ul {
   text-transform: uppercase;
   padding: 10px;
 
+  .menu-link {
+      text-decoration: none;
+      color: #000;
+        &:visited{
+          color: #000;
+        }
+        &:hover {
+          color: #f87d22;
+        }
+        &:active {
+           color: #d7a049;
+        }
+  }
 }
 
 .App-logo {

@@ -1,6 +1,23 @@
 .my-gear {
   padding: 20px;
-  display: flex;
-  justify-content: center;
 }
 
+h3 {
+  color: #f87d22;
+}
+
+
+
+.linkstyle {
+  text-decoration: none;
+  color: #d7a049;
+    &:visited{
+      color: #d7a049;
+    }
+    &:hover {
+      color: #f87d22;
+    }
+    &:active {
+      color: #d7a049;
+    }
+}

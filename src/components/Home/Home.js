@@ -1,17 +1,15 @@
 import React from 'react';
-// import { useState } from 'react';
-// import { send } from 'emailjs-com';
-// import emailjs from '@emailjs/browser';
+import './home.scss';
 
 function Home(props) {
     return (
         <div className="home">
             <p className="text">
 
-                Soundwich to łatwa aplikacja do udostępniania swojego sprzętu na wynajem.
+                Soundwich to łatwa aplikacja do udostępniania sprzętu dźwiękowego na wynajem.
                 <br/><br/>
-                <strong>JEŚLI CHCESZ UDOSTĘPNIĆ SWÓJ SPRZĘT:</strong><br/><br/>
-                - STWÓRZ WŁASNĄ SOUNDWICH:<br/><br/>
+                <p className="strong-text"> <strong>JEŚLI CHCESZ UDOSTĘPNIĆ SWÓJ SPRZĘT:</strong></p><br/>
+                <strong>- STWÓRZ WŁASNĄ SOUNDWICH:</strong><br/><br/>
                 1.  W zakładce "Mój sprzęt" wpisz sprzęt, który posiadasz na wynajem.<br/>
                 Pamiętaj o podaniu producentów, o dokładnych modelach oraz cenie wynajmu za dzień.
                 <br/><br/>
@@ -19,8 +17,8 @@ function Home(props) {
                 Skopiuj jej link i wyślij zainteresowanym wynajmem.
                 <br/>
                 <br/>
-                <strong>JEŚLI CHCESZ WYNAJĄĆ SPRZĘT:</strong>
-                <br/><br/>
+                <p className="strong-text"> <strong>JEŚLI CHCESZ WYNAJĄĆ SPRZĘT:</strong></p>
+                <br/>
                 1. Otrzymując link z listą sprzętu na wynajem, zyskujesz dostęp do kalkulatora kosztów.
                 <br />
                 2. Odpowiednimi przyciskami dodaj kolejne przedmioty do zamówienia.
@@ -28,6 +26,7 @@ function Home(props) {
                 Możesz zapisać tę listę jako dokument PDF, wydrukować ją lub wysłać mailem.
                 <br /><br/>
                 Potrzebujesz pomocy z obsługą aplikacji? Napisz do nas: <br/>
+                help@soundwich.pl
 
             </p>
         </div>

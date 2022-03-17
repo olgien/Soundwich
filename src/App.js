@@ -13,13 +13,13 @@ function App() {
                 <div className="menulist">
                     <ul>
                         <li>
-                            <Link to="/">Strona główna</Link>
+                            <Link className="menu-link" to="/">Strona główna</Link>
                         </li>
                         <li>
-                            <Link to="/mygear">Mój sprzęt</Link>
+                            <Link className="menu-link" to="/mygear">Mój sprzęt</Link>
                         </li>
                         <li>
-                            <Link to="/sharemygear">Udostępnij listę sprzętu</Link>
+                            <Link className="menu-link" to="/sharemygear">Udostępnij listę sprzętu</Link>
                         </li>
                     </ul>
                 </div>

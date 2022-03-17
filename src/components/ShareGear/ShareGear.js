@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from 'react';
+import {Link} from "react-router-dom";
+import './ShareGear.scss';
 
 function ShareGear(props) {
     const [gear, setGear] = useState([])
@@ -11,30 +13,27 @@ function ShareGear(props) {
     }, [])
     return (
 
-
         <div className="my-gear">
-            test test
-            {/*{<Pdf targetRef={ref} filename="code-example.pdf">*/}
-            {/*    {({ toPdf }) => <button onClick={toPdf}>Generate Pdf</button>}*/}
-            {/*</Pdf>*/}
-
+            Złóż zamówienie na wynajem: <br/><br/>
             <div ref={ref}>
-                {basket.map(e => <h4 className="item">{e.type}{e.name}</h4>)}
+                {basket.map(e => <p><strong>{e.type}:</strong> {e.brand} {e.name}</p>)}
             </div>
-            suma
-            <div>
+            <p className="suma-style"><strong>suma:</strong></p>
+            <div className="price-style">
                 {basket.reduce((a,b) => {
                     return a + b.price
-                }, 0)}
+                }, 0)} zł
+                <hr/>
             </div>
 
-            {gear.map(e => <p>{e.type} {e.price} <button onClick={() => setBasket(p => [...p, e])}>add</button></p>)}
+            {gear.map(e => <p>{e.type}: {e.brand} {e.name}: {e.price} zł <button onClick={() => setBasket(p => [...p, e])}>add</button></p>)}
 
             {}
-
+            <Link className="linkstyle" to="/mygear">Zobacz listę sprzętu z numerami serialnymi</Link><br/>
+            <Link className="linkstyle" to="/">Powrót do strony głównej</Link><br/><br/>
         </div>
-
     );
 }
+
 
 export default ShareGear;

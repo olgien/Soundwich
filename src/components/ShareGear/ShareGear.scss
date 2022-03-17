@@ -1,3 +1,34 @@
 .my-gear {
-  font-size: 12px;
+  font-size: 16px;
+
+}
+
+.suma-style {
+  color: #f87d22;
+}
+.price-style {
+  color: #f87d22;
+  font-size: 17px;
+}
+
+button {
+  color: #cb6113;
+  border: 1px solid #d7a049;
+  &:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+}
+.linkstyle {
+  text-decoration: none;
+  color: #d7a049;
+  &:visited{
+    color: #d7a049;
+  }
+  &:hover {
+    color: #f87d22;
+  }
+  &:active {
+    color: #d7a049;
+  }
 }
