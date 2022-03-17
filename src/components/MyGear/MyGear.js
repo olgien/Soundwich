@@ -4,8 +4,6 @@ import './MyGear.scss';
 
 function MyGear(props) {
     const [gear, setGear] = useState([])
-    const [basket, setBasket] = useState([])
-    const ref = React.createRef();
     useEffect(() => {
         fetch('http://localhost:3000/gear')
             .then(d => d.json())
